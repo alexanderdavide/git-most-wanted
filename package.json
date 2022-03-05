@@ -1,0 +1,31 @@
+{
+  "name": "practical-git",
+  "version": "1.0.0",
+  "description": "A Practical Introduction to the Git CLI",
+  "private": "true",
+  "main": "slides.md",
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderdavide/practical-git.git"
+  },
+  "keywords": [
+    "git",
+    "cli"
+  ],
+  "author": "Alexander Eble",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexanderdavide/practical-git/issues"
+  },
+  "homepage": "https://github.com/alexanderdavide/practical-git#readme",
+  "devDependencies": {
+    "@slidev/cli": "^0.28.9",
+    "playwright-chromium": "^1.19.2",
+    "slidev-theme-academic": "^0.1.2"
+  }
+}

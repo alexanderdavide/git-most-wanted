@@ -1,0 +1,37 @@
+{
+  "name": "practical-git",
+  "build": {
+    "dockerfile": "./vscode-dev-containers/containers/typescript-node/.devcontainer/Dockerfile",
+    "args": {
+      "VARIANT": "16-bullseye"
+    }
+  },
+  "settings": {
+    "sync.syncExtensions": false,
+    "sync.autoDownload": true,
+    "sync.autoUpload": false
+  },
+  "extensions": [
+    "codeshifu.1loc",
+    "dbaeumer.vscode-eslint",
+    "adpyke.codesnap",
+    "codezombiech.gitignore",
+    "dsznajder.es7-react-js-snippets",
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "hashicorp.terraform",
+    "humao.rest-client",
+    "ms-azuretools.vscode-docker",
+    "ms-ossdata.vscode-postgresql",
+    "ms-vscode-remote.remote-containers",
+    "ms-vsliveshare.vsliveshare",
+    "shan.code-settings-sync",
+    "sleistner.vscode-fileutils",
+    "pustelto.bracketeer",
+    "vscode-icons-team.vscode-icons",
+    "wakatime.vscode-wakatime",
+    "wix.vscode-import-cost"
+  ],
+  "forwardPorts": [3000],
+  "remoteUser": "node"
+}
