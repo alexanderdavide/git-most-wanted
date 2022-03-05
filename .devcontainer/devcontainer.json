@@ -1,5 +1,5 @@
 {
-  "name": "practical-git",
+  "name": "git-most-wanted",
   "build": {
     "dockerfile": "./vscode-dev-containers/containers/typescript-node/.devcontainer/Dockerfile",
     "args": {
