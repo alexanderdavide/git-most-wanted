@@ -60,7 +60,7 @@ preload: false
   </li>
 </ul>
 
-<div class="absolute top-18 right-10 w-280px" v-click>
+<div class="absolute top-18 right-10 w-260px" v-click>
   <img alt="Linus Tovalds" class="mb-4 rounded-sm" src="https://grupobcc.com/wp/wp-content/uploads/2015/05/Linus-Torvald-speaker-keynote-linus-conferencias.jpg" />
   <span class="font-light">..and Linus Tovald's blessing<sup>1</sup></span>
 </div>
