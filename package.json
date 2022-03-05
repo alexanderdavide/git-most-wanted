@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/alexanderdavide/practical-git#readme",
   "devDependencies": {
+    "@iconify-json/mdi": "^1.1.1",
     "@slidev/cli": "^0.28.9",
     "playwright-chromium": "^1.19.2",
     "slidev-theme-academic": "^0.1.2"
