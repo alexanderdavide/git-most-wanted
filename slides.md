@@ -134,7 +134,7 @@ git diff [<pathspec>...]
 
 git diff --staged [<pathspec>...]
 
-git diff <remote>/<branch>
+git diff [<remote>]/<branch>
 ```
 
 <Footnotes separator>
