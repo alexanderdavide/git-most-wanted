@@ -27,7 +27,7 @@ hideInToc: true
 
 # Git's Most Wanted <mdi-git />
 
-## Git Commands Needed in the Everyday's Workflow
+## Git Commands Needed in the Everyday Workflow
 
 ---
 hideInToc: true
