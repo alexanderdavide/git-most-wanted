@@ -33,7 +33,7 @@ jobs:
           name: build
           path: dist
       - name: deploy upstream
-        uses: sebastianpopp/ftp-action@v2.0.0
+        uses: sebastianpopp/ftp-action@releases/v2
         with:
           host: ${{ secrets.UPSTREAM_URL }}
           user: ${{ secrets.UPSTREAM_USERNAME }}
