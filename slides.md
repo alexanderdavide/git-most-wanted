@@ -111,7 +111,7 @@ git status --ignored
 
 Add file contents to the index<sup>1</sup>
 
-```bash
+```bash {all|1-3|5}
 git add [<pathspec>...]
 
 git add -A
@@ -129,7 +129,7 @@ git add -p [<pathspec>...]
 
 Show changes between commits, commit and working tree, etc<sup>1</sup>
 
-```bash
+```bash {all|1-3|5}
 git diff [<pathspec>...]
 
 git diff --staged [<pathspec>...]
@@ -163,7 +163,7 @@ git restore --staged [<pathspec>...]
 
 Record changes to the repository<sup>1</sup>
 
-```bash
+```bash {all|1-5|7|9}
 git commit [<pathspec>...]
 
 git commit -a [<pathspec>...]
@@ -185,7 +185,7 @@ git commit --no-edit [<pathspec>...]
 
 Get and set repository or global options<sup>1</sup>
 
-```bash
+```bash {all|1-3|5}
 git config <name> <value>
 
 git config --global <name> <value>
@@ -203,7 +203,7 @@ git config --list
 
 Get and set repository or global options<sup>1</sup>
 
-```bash
+```bash {all|1-3|5}
 git log
 
 git log --oneline
@@ -235,7 +235,7 @@ git show [<object>…​]
 
 Reset current HEAD to the specified state<sup>1</sup>
 
-```bash
+```bash {all|1|3}
 git reset HEAD~x
 
 git reset --hard <remote>/<branch>
@@ -251,7 +251,7 @@ git reset --hard <remote>/<branch>
 
 Manage set of tracked repositories<sup>1</sup>
 
-```bash
+```bash {all|1|3|5}
 git remote add <name> <URL>
 
 git remote set-url <name> <newurl>
@@ -269,7 +269,7 @@ git remote -v
 
 Update remote refs along with associated objects<sup>1</sup>
 
-```bash
+```bash {all|1|3|5}
 git push
 
 git push -u <remote> <branch>
@@ -303,7 +303,7 @@ git fetch --all
 
 Fetch from and integrate with another repository or a local branch<sup>1</sup>
 
-```bash
+```bash {all|1|3-5}
 git pull
 
 git config pull.rebase <true | false>
@@ -321,7 +321,7 @@ git config pull.ff <false | only>
 
 List, create, or delete branches<sup>1</sup>
 
-```bash
+```bash {all|1|3|5-7|9}
 git branch
 
 git branch <name>
@@ -359,7 +359,7 @@ git checkout -b <branch>
 
 Stash the changes in a dirty working directory away<sup>1</sup>
 
-```bash
+```bash {all|1-3|5-7|9|11}
 git stash
 
 git stash push <pathspec>
