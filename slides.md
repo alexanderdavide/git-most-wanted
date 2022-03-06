@@ -4,7 +4,7 @@ favicon: https://static-alex-eble.mo.cloudinary.net/logo.png
 fonts:
   sans: 'Roboto'
   weights: '200,300,400,500,600,700'
-highlighter: shiki
+highlighter: prism
 info: |
   <h2>Git's Most Wanted</h2>
   <h5 class="font-light">Alexander Eble</h5>
