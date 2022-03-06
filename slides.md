@@ -37,9 +37,9 @@ hideInToc: true
 
 Developers who..
 
-- just started with Git and need a curated source of what is most important.
-- who are already familiar with Git but need a refresher.
-- who are already familiar with Git GUIs but intend to switch to the CLI.
+- just started with Git and need a curated source of what is really important.
+- are already familiar with Git but need a refresher.
+- are already familiar with Git GUIs but intend to switch to the CLI.
 
 ---
 class: "text-center"
