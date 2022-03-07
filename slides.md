@@ -287,10 +287,12 @@ git push -d <remote> <branch>
 
 Download objects and refs from another repository<sup>1</sup>
 
-```bash
+```bash {all|1-3|5}
 git fetch
 
 git fetch --all
+
+git fetch --prune
 ```
 
 <Footnotes separator>
