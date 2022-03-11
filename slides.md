@@ -201,7 +201,7 @@ git config --list
 
 # `git log`
 
-Get and set repository or global options<sup>1</sup>
+Show commit logs<sup>1</sup>
 
 ```bash {all|1-3|5}
 git log
