@@ -12,27 +12,25 @@
     "sync.autoUpload": false
   },
   "extensions": [
-    "codeshifu.1loc",
-    "dbaeumer.vscode-eslint",
     "adpyke.codesnap",
+    "antfu.slidev",
+    "codeshifu.1loc",
     "codezombiech.gitignore",
-    "dsznajder.es7-react-js-snippets",
     "eamodio.gitlens",
     "editorconfig.editorconfig",
-    "hashicorp.terraform",
-    "humao.rest-client",
+    "esbenp.prettier-vscode",
     "ms-azuretools.vscode-docker",
-    "ms-ossdata.vscode-postgresql",
     "ms-vscode-remote.remote-containers",
     "ms-vsliveshare.vsliveshare",
+    "octref.vetur",
     "shan.code-settings-sync",
     "sleistner.vscode-fileutils",
     "pustelto.bracketeer",
     "voorjaar.windicss-intellisense",
     "vscode-icons-team.vscode-icons",
     "wakatime.vscode-wakatime",
-    "wix.vscode-import-cost",
+    "wix.vscode-import-cost"
   ],
-  "forwardPorts": [3000],
+  "forwardPorts": [3030],
   "remoteUser": "node"
 }
