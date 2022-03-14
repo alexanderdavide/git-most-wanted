@@ -92,6 +92,20 @@ git init
 
 ---
 
+# `git clone`
+
+Clone a repository into a new directory<sup>1</sup>
+
+```bash
+git clone
+```
+
+<Footnotes separator>
+  <Footnote :number=1><a href="https://git-scm.com/docs/git-clone" target="_blank" rel="noreferrer">Git. git-clone</a></Footnote>
+</Footnotes>
+
+---
+
 # `git status`
 
 Show the working tree status<sup>1</sup>
