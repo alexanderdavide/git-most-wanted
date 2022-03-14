@@ -1,9 +1,10 @@
 ---
-theme: academic
+colorSchema: light
 favicon: https://static-alex-eble.mo.cloudinary.net/logo.png
 fonts:
-  sans: 'Roboto'
+  sans: Roboto
   weights: '200,300,400,500,600,700'
+hideInToc: true
 highlighter: prism
 info: |
   <h2>Git's Most Wanted</h2>
@@ -15,6 +16,7 @@ info: |
 
   The presentation is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" noreferrer>CC BY-NC-SA</a>.
 title: Alexander Eble • Git's Most Wanted
+theme: academic
 author: Alexander Eble
 authorUrl: https://www.alex-eble.de
 backgroundUrl: https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80
@@ -22,7 +24,6 @@ class: text-white
 backgroundSource: unsplash
 backgroundSourceUrl: https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80
 date: 03/11/2022
-hideInToc: true
 ---
 
 # Git's Most Wanted <mdi-git />
