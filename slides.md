@@ -262,6 +262,20 @@ git reset --hard <remote>/<branch>
 
 ---
 
+# `git revert`
+
+Revert some existing commits<sup>1</sup>
+
+```bash
+git revert --no-edit <commit>
+```
+
+<Footnotes separator>
+  <Footnote :number=1><a href="https://git-scm.com/docs/git-revert" target="_blank" rel="noreferrer">Git. git-revert</a></Footnote>
+</Footnotes>
+
+---
+
 # `git remote`
 
 Manage set of tracked repositories<sup>1</sup>
