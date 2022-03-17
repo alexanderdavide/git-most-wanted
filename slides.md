@@ -131,6 +131,8 @@ git add [<pathspec>...]
 
 git add -A
 
+git add -i [<pathspec>...]
+
 git add -p [<pathspec>...]
 ```
 
