@@ -12,11 +12,18 @@ info: |
   <h2>Git's Most Wanted</h2>
   <h5 class="font-light">Alexander Eble</h5>
 
-  <a href="https://www.alex-eble.de" target="_blank" rel="noreferrer"><img alt="Alexander Eble Logo" class="w-48px" src="https://static-alex-eble.mo.cloudinary.net/logo.png" /><a/>
+  <a href="https://www.alex-eble.de" target="_blank" rel="noreferrer"><img alt="Alexander Eble Logo" class="w-48px" src="https://static-alex-eble.mo.cloudinary.net/logo.png"></a>
 
-  <a href="https://www.alex-eble.de" target="_blank" noreferrer>https://www.alex-eble.de</a>
+  The presentation is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA</a>.
 
-  The presentation is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" noreferrer>CC BY-NC-SA</a>.
+  <ul>
+    <li>
+      <a href="https://www.alex-eble.de/impressum/" target="_blank">Legal information of this website</a>
+    </li>
+    <li>
+      <a href="https://www.alex-eble.de/datenschutz/" target="_blank">Privacy policy of this website</a>
+    </li>
+  </ul>
 title: Alexander Eble • Git's Most Wanted
 theme: academic
 author: Alexander Eble
@@ -94,7 +101,7 @@ git init
 
 ---
 
-# `git clone`
+<h1><code>git clone</code></h1>
 
 Clone a repository into a new directory<sup>1</sup>
 
