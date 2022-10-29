@@ -28,5 +28,10 @@
     "@slidev/cli": "^0.28.9",
     "playwright-chromium": "^1.19.2",
     "slidev-theme-academic": "^0.1.2"
+  },
+  "dependencies": {
+    "@fontsource/fira-code": "^4.5.12",
+    "@fontsource/roboto": "^4.5.8",
+    "@fontsource/roboto-slab": "^4.5.9"
   }
 }

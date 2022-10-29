@@ -3,7 +3,9 @@ colorSchema: light
 favicon: https://static-alex-eble.mo.cloudinary.net/logo.png
 fonts:
   sans: Roboto
-  weights: '200,300,400,500,600,700'
+  serif: Roboto Slab
+  mono: Fira Code
+  local: Fira Code, Roboto, Roboto Slab
 hideInToc: true
 highlighter: prism
 info: |
