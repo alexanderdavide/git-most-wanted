@@ -1,6 +1,6 @@
 ---
 colorSchema: light
-favicon: https://static-alex-eble.mo.cloudinary.net/logo.png
+favicon: https://alexeble.mo.cloudinary.net/logo.png
 fonts:
   sans: Roboto
   serif: Roboto Slab
@@ -12,22 +12,22 @@ info: |
   <h2>Git's Most Wanted</h2>
   <h5 class="font-light">Alexander Eble</h5>
 
-  <a href="https://www.alex-eble.de" target="_blank" rel="noreferrer"><img alt="Alexander Eble Logo" class="w-48px" src="https://static-alex-eble.mo.cloudinary.net/logo.png"></a>
+  <a href="https://www.alexeble.de" target="_blank" rel="noreferrer"><img alt="Alexander Eble Logo" class="w-48px" src="https://alexeble.mo.cloudinary.net/logo.png"></a>
 
   The presentation is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA</a>.
 
   <ul>
     <li>
-      <a href="https://www.alex-eble.de/impressum/" target="_blank">Legal information of this website</a>
+      <a href="https://www.alexeble.de/impressum/" target="_blank">Legal information of this website</a>
     </li>
     <li>
-      <a href="https://www.alex-eble.de/datenschutz/" target="_blank">Privacy policy of this website</a>
+      <a href="https://www.alexeble.de/datenschutz/" target="_blank">Privacy policy of this website</a>
     </li>
   </ul>
 title: Alexander Eble • Git's Most Wanted
 theme: academic
 author: Alexander Eble
-authorUrl: https://www.alex-eble.de
+authorUrl: https://www.alexeble.de
 backgroundUrl: https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176&q=80
 class: text-white
 backgroundSource: unsplash

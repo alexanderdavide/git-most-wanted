@@ -1,6 +1,6 @@
-# Git's Most Wanted [![website status](https://img.shields.io/website?down_color=red&style=for-the-badge&up_color=green&url=https%3A%2F%2Fgit-most-wanted.alex-eble.de)](https://git-most-wanted.alex-eble.de)
+# Git's Most Wanted [![website status](https://img.shields.io/website?down_color=red&style=for-the-badge&up_color=green&url=https%3A%2F%2Fgit-most-wanted.alexeble.de)](https://git-most-wanted.alexeble.de)
 
-[Git's Most Wanted](https://git-most-wanted.alex-eble.de) is a ready-to-use online presentation of Git commands needed in the everyday workflow.
+[Git's Most Wanted](https://git-most-wanted.alexeble.de) is a ready-to-use online presentation of Git commands needed in the everyday workflow.
 
 ## Target Group
 
