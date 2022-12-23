@@ -4,6 +4,9 @@ on:
   push:
     branches: master
 
+env:
+  SLUG: git-most-wanted
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,7 +20,7 @@ jobs:
       - name: install
         run: npm ci
       - name: build
-        run: npm run build
+        run: npx slidev build --base /talks/${{ env.SLUG }}
       - name: upload build
         uses: actions/upload-artifact@v3
         with:
@@ -39,5 +42,5 @@ jobs:
           user: ${{ secrets.UPSTREAM_USERNAME }}
           password: ${{ secrets.UPSTREAM_PASSWORD }}
           localDir: dist
-          remoteDir: htdocs/${{ secrets.APEX_DOMAIN_URI }}/${{ secrets.SUBDOMAIN_URI }}
-          options: '--delete'
+          remoteDir: htdocs/${{ secrets.APEX_DOMAIN_URI }}/${{ secrets.SUBDOMAIN_URI }}/talks/${{ env.SLUG }}
+          options: "--delete"
