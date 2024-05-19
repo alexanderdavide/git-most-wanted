@@ -396,6 +396,38 @@ git checkout -b <branch>
 
 ---
 
+# `git merge` / `git rebase`
+
+Join two or more development histories together<sup>1</sup>
+
+```bash {all|1|3|none}
+git merge <branch>
+
+git merge --squash <branch>
+```
+
+Reapply commits on top of another base tip<sup>2</sup>
+
+```bash {none|all|1-5|7|9}
+git rebase <branch>
+
+git rebase --continue
+
+git rebase --abort
+
+git rebase -i <commit>
+
+git rebase <commit> --onto <branch>
+```
+
+<Footnotes separator>
+  <Footnote :number=1><a href="https://git-scm.com/docs/git-merge" target="_blank" rel="noreferrer">Git. git-merge</a></Footnote>
+  <Footnote :number=2><a href="https://git-scm.com/docs/git-rebase" target="_blank" rel="noreferrer">Git. git-rebase</a></Footnote>
+</Footnotes>
+
+
+---
+
 # `git stash`
 
 Stash the changes in a dirty working directory away<sup>1</sup>
