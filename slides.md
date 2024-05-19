@@ -1,5 +1,4 @@
 ---
-colorSchema: light
 favicon: https://alexeble.mo.cloudinary.net/logo.png
 fonts:
   sans: Roboto
